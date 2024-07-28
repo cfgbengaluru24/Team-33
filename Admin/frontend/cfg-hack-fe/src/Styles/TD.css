@@ -1,0 +1,40 @@
+.record-row {
+  height: 3em;
+  display: grid;
+  align-items: center;
+  padding-left: 2em;
+  grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw;
+  border-top: 1.5px solid whitesmoke;
+  border-bottom: 1.5px solid whitesmoke;
+  background-color: white;
+}
+
+.mode-button {
+  width: 7vw;
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em 1em 0.5em 1em;
+}
+.selected {
+  color: white;
+  background-color: #004277;
+}
+.filter-row {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 10vw 10vw 10vw 5vw 10vw;
+  height: 4em;
+  margin-top: 1em;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+.filter-row-select {
+  width: 7vw;
+  margin-left: 2em;
+}
+.filter-grid {
+  background-color: whitesmoke;
+  width: 100vw;
+  height: 92vh;
+}

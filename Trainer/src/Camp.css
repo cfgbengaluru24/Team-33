@@ -1,0 +1,45 @@
+.record-row1 {
+  display: grid;
+  grid-template-columns: 30vw 10vw 10vw;
+  width: 60vw;
+  padding-left: 1em;
+  padding-right: 3em;
+  margin-top: 2em;
+  margin-left: 1em;
+  height: 5em;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5em;
+  box-shadow: 0 0 3px 0 grey;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 96vw;
+}
+.record-row2 {
+  height: 40vh;
+  min-height: 40vh;
+  width: 27vw;
+  padding-left: 1em;
+  padding: 1em;
+  margin-top: 2em;
+  margin-left: 1em;
+  height: fit-content;
+  align-items: center;
+  border-radius: 0.5em;
+  box-shadow: 0 0 3px 0 grey;
+}
+.record-button {
+  background-color: white;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+.record-button:hover {
+  color: white;
+  background-color: #004277;
+  padding: 0.5em 1em 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+}

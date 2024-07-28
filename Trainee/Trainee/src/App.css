@@ -1,0 +1,146 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-button {
+  background-color: #ffffff;
+  color: #4caf50;
+  border: 1px solid #4caf50;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.nav-button:focus {
+  background-color: #45a049;
+  color: #ffffff;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f0f0f5;
+}
+
+.card-name {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 1.2em;
+}
+
+.card-description {
+  padding: 15px;
+  color: #333;
+}
+
+.card-link {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.card-link:hover {
+  background-color: #45a049;
+}
+
+.exam-page {
+  padding: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 50px auto;
+}
+
+.exam-page h2 {
+  margin-bottom: 20px;
+}
+
+.exam-page p {
+  margin-bottom: 20px;
+}
+
+.exam-page button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.exam-page button:hover {
+  background-color: #45a049;
+}
+
+.response-message {
+  background-color: #e7f3e7;
+  border: 1px solid #a2d5a2;
+  color: #2e7d32;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 300px;
+}
